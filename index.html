@@ -4,136 +4,138 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Leronia Smith — Resume</title>
-  <meta name="description" content="Resume for Leronia Smith">
+  <meta name="description" content="Resume of Leronia Smith">
   <style>
-    :root {
-      --accent: #0b5fff;
-      --muted: #6b7280;
-      --bg: #f8fafc;
-    }
-    html, body {
-      margin: 0;
-      padding: 0;
-      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-      background: var(--bg);
-      color: #0f172a;
-      font-size: 14px;
-      line-height: 1.4;
-    }
-    .container {
-      max-width: 850px;
-      margin: 20px auto;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 3px 12px rgba(2,6,23,0.08);
-      padding: 24px 32px;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 12px;
-    }
-    h1 {
-      font-size: 26px;
-      margin: 0;
-      letter-spacing: -0.3px;
-    }
-    .contact {
-      color: var(--muted);
-      font-size: 13px;
-    }
-    .contact a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    section {
-      margin-bottom: 10px;
-    }
-    .section-title {
-      font-weight: 600;
-      font-size: 16px;
-      color: #0f172a;
-      border-bottom: 1px solid #e2e8f0;
-      margin-bottom: 4px;
-    }
-    ul {
-      margin: 4px 0 4px 16px;
-      padding: 0;
-    }
-    .pill {
-      background: #f1f5f9;
-      padding: 4px 8px;
-      border-radius: 999px;
-      margin: 2px;
-      display: inline-block;
-      font-size: 12px;
-    }
+    :root { --accent:#0b5fff; --muted:#555; --bg:#f8fafc; }
+    body { font-family:Inter, system-ui, sans-serif; margin:0; background:var(--bg); color:#111; }
+    .container { max-width:850px; margin:20px auto; background:#fff; border-radius:12px; box-shadow:0 4px 14px rgba(0,0,0,0.08); padding:30px; }
+    header { text-align:center; margin-bottom:20px; }
+    h1 { margin:0; font-size:28px; }
+    .contact { font-size:14px; color:var(--muted); line-height:1.4; }
+    .contact a { color:var(--accent); text-decoration:none; }
+    section { margin-bottom:18px; }
+    .section-title { font-weight:700; text-transform:uppercase; font-size:15px; color:#0f172a; margin-bottom:6px; border-bottom:1px solid #ddd; padding-bottom:4px; }
+    ul { margin:4px 0 10px 20px; padding:0; }
+    li { margin-bottom:4px; }
+    p { margin:4px 0; }
+    .muted { color:var(--muted); font-size:14px; }
+    .two-col { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+    @media(max-width:700px){ .two-col{grid-template-columns:1fr;} }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>Leronia Smith</h1>
+      <h1>LERONIA SMITH</h1>
       <div class="contact">📧 <a href="mailto:leronia.s07@gmail.com">leronia.s07@gmail.com</a> | 📞 +1 (718) 500-7448</div>
-      <div class="contact">🌐 <a href="https://github.com/Leronias" target="_blank">github.com/Leronias</a> | 💼 <a href="https://www.linkedin.com/in/leronia-smith-90a38a383" target="_blank">linkedin.com/in/leronia-smith</a></div>
+      <div class="contact">🌐 <a href="https://github.com/leronias" target="_blank">github.com/leronias</a> | <a href="https://www.linkedin.com/in/leronia-smith-90a38a383" target="_blank">linkedin.com/in/leronia-smith-90a38a383</a></div>
       <div class="contact">📍 Washington, D.C.</div>
     </header>
 
     <section>
       <div class="section-title">Professional Summary</div>
-      <p>Dedicated and adaptable Computer Science student at Howard University (B.S., Class of 2029) with a strong academic record and leadership experience across two educational systems. Skilled in organization, communication, and teamwork, with growing technical proficiency and a passion for technology-driven problem solving. Actively engaged in weekly volunteer work assisting children with homework and fun educational activities, demonstrating a commitment to mentorship and community impact.</p>
+      <p>Dedicated and adaptable Computer Science student at Howard University (B.S., Class of 2029) with a strong academic record and leadership experience across two educational systems. Skilled in organization, communication, and teamwork, with growing technical proficiency and a passion for technology-driven problem solving. Actively engaged in weekly volunteer work assisting children with homework and educational activities, demonstrating a commitment to mentorship and community impact.</p>
     </section>
 
     <section>
       <div class="section-title">Education</div>
-      <p><strong>Howard University</strong>, Washington, D.C. — <em>B.S., Computer Science (Expected May 2029)</em></p>
-      <p><strong>Mount Vernon STEAM Academy</strong>, Mount Vernon, NY <span style="color:var(--muted)">(Sept. 2024 – Jun. 2025)</span></p>
+      <p><strong>Howard University</strong>, Washington, D.C. — <span class="muted">B.S., Computer Science (Expected May 2029)</span></p>
+      <p><strong>Mount Vernon STEAM Academy</strong>, Mount Vernon, NY <span class="muted">(Sept. 2024 – Jun. 2025)</span></p>
       <ul>
         <li>GPA: 3.8 | Class Rank: #1</li>
         <li>Focused on AP, Math, Science, and Health Courses</li>
       </ul>
-      <p><strong>Hampton School for Girls</strong>, St. Elizabeth, Jamaica <span style="color:var(--muted)">(Sept. 2019 – Jun. 2024)</span></p>
+      <p><strong>Hampton School for Girls</strong>, St. Elizabeth, Jamaica <span class="muted">(Sept. 2019 – Jun. 2024)</span></p>
       <ul>
-        <li>Graduated with Honors</li>
-        <li>Active in student leadership and service clubs</li>
+        <li>Studied 10 subjects across Science, Business, and Social Sciences</li>
+        <li>Leadership: Prefect, Student Council Asst. PRO, President of Jamaica Automobile Association Jr. Club</li>
       </ul>
     </section>
 
     <section>
-      <div class="section-title">Experience</div>
-      <p><strong>Student Volunteer</strong> — Community Education Program, Washington, D.C. <span style="color:var(--muted)">(Sept. 2024 – Present)</span></p>
+      <div class="section-title">Work Experience</div>
+      <p><strong>Sales Associate</strong> | Marshall’s, Washington, D.C. <span class="muted">(Apr. – Aug. 2025)</span></p>
       <ul>
-        <li>Assist children weekly with homework and literacy activities</li>
-        <li>Plan and lead engaging games and learning-based projects</li>
-        <li>Encourage teamwork and confidence through mentorship</li>
+        <li>Assisted customers in selecting styles and sizes, ensuring a positive shopping experience.</li>
+        <li>Maintained organized displays and processed sales transactions efficiently.</li>
+        <li>Supported inventory restocking and contributed to loss prevention efforts.</li>
       </ul>
 
-      <p><strong>Leadership Intern</strong> — Hampton School for Girls Student Council <span style="color:var(--muted)">(2022 – 2024)</span></p>
+      <p><strong>Customer Service & Document Management</strong> | Passport, Immigration & Citizenship Agency, Jamaica <span class="muted">(Jul. 2024)</span></p>
       <ul>
-        <li>Organized peer support sessions and school-wide events</li>
-        <li>Collaborated with faculty to promote student engagement</li>
+        <li>Scheduled appointments, verified customer documents, and answered inquiries.</li>
+        <li>Organized and securely transferred documents to appropriate departments.</li>
+        <li>Supported administrative staff with clerical and data management tasks.</li>
+      </ul>
+
+      <p><strong>Document Management Intern</strong> | St. Ann Municipal Corporation, Jamaica <span class="muted">(Mar. – Apr. 2024)</span></p>
+      <ul>
+        <li>Photocopied, scanned, and filed records systematically.</li>
+        <li>Retrieved documents upon request to assist administrative operations.</li>
+        <li>Improved efficiency by maintaining a well-organized filing system.</li>
       </ul>
     </section>
 
     <section>
-      <div class="section-title">Skills</div>
-      <div>
-        <span class="pill">Python</span>
-        <span class="pill">HTML/CSS</span>
-        <span class="pill">Java</span>
-        <span class="pill">Git & GitHub</span>
-        <span class="pill">Leadership</span>
-        <span class="pill">Teamwork</span>
-        <span class="pill">Organization</span>
-        <span class="pill">Communication</span>
+      <div class="section-title">Leadership & Volunteer Experience</div>
+      <p><strong>Volunteer Tutor</strong> | Community Homework & Activity Program <span class="muted">(2024–Present)</span></p>
+      <ul>
+        <li>Volunteer weekly to help children complete homework and engage in fun, educational activities.</li>
+        <li>Foster creativity, teamwork, and academic confidence through mentoring and interactive learning.</li>
+      </ul>
+
+      <p><strong>Sub-Prefect</strong> | Hampton School <span class="muted">(2023–2024)</span></p>
+      <ul>
+        <li>Served as a role model ensuring adherence to school rules.</li>
+        <li>Mentored peers academically and supported school initiatives.</li>
+      </ul>
+
+      <p><strong>Student Council Representative (Asst. PRO)</strong> | Hampton School <span class="muted">(2022–2024)</span></p>
+      <ul>
+        <li>Promoted school events and gathered feedback from students.</li>
+        <li>Assisted in communication and content creation for council outreach.</li>
+      </ul>
+
+      <p><strong>President</strong> | Jamaica Automobile Association Jr. Club <span class="muted">(2022–2024)</span></p>
+      <ul>
+        <li>Led road safety seminars and learner’s permit workshops.</li>
+        <li>Organized campus initiatives promoting responsible driving.</li>
+      </ul>
+
+      <p><strong>Assistant Treasurer</strong> | Model UN, STEM Club, and Photography Club <span class="muted">(2020–2024)</span></p>
+      <ul>
+        <li>Managed club finances, collected dues, and maintained budgets.</li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="two-col">
+        <div>
+          <div class="section-title">Technical Skills</div>
+          <ul>
+            <li>Microsoft Office Suite, Google Workspace</li>
+            <li>Python (Beginner), HTML/CSS (Beginner)</li>
+            <li>Document Management, Data Entry, Customer Service Systems</li>
+          </ul>
+        </div>
+        <div>
+          <div class="section-title">Soft Skills</div>
+          <ul>
+            <li>Organizational & Time Management</li>
+            <li>Communication & Interpersonal Skills</li>
+            <li>Team Collaboration & Leadership</li>
+            <li>Adaptability & Problem-Solving</li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <section>
-      <div class="section-title">Achievements</div>
+      <div class="section-title">Honors & Achievements</div>
       <ul>
-        <li>Top-ranked student (Class Rank #1, GPA 3.8)</li>
-        <li>Leadership Excellence Award — Hampton School for Girls</li>
-        <li>Academic Merit Scholarship — Howard University</li>
+        <li>Class Rank #1 at Mount Vernon STEAM Academy</li>
+        <li>Prefect & Student Council Leader, Hampton School</li>
+        <li>Consistent Academic Excellence (GPA 3.8–4.0 range)</li>
       </ul>
     </section>
   </div>
